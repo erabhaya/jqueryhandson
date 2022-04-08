@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>button change</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+</head>
+<body>
+    <input type="button" id="myInput" value="Input Text">
+
+    <button type="button" id="myButton">Button Text</button>
+    <script>
+    $(document).ready(function(){
+    $("#myInput").prop("value", "Button new text");
+});
+     </script>
+</body>
+</html>
