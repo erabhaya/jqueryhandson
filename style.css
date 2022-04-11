@@ -1,0 +1,41 @@
+body{
+    background-color: lightcyan;
+}
+      
+      .chessboard {
+        width: 80%;
+        margin: auto;
+      }
+      .chesstd {
+        width: 131px;
+        height: 131px;
+     
+      }
+      .chesstr:nth-child(even) > td:nth-child(even) {
+        background-color: #000;
+      }
+      .chesstr:nth-child(odd) > td:nth-child(odd) {
+        background-color: #000;
+      }
+      .demotable {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      .demotd,
+      .demoth {
+        border: 1px solid #cccc;
+        text-align: left;
+        padding: 8px;
+      }
+
+      .demotr:nth-child(even) {
+        background-color: #cccc;
+      }
+      .important {
+        color: chocolate;
+        font-size: 18px;
+      }
+
+ 
